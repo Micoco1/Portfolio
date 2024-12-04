@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav>
+       <div class="left">
+        <a href="/">Michael Orinion</a>
+       </div> 
+
+       <div class="right">
+        <a href="https://github.com/Micoco1" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+            <span>Github</span>
+        </a>
+        <a href="https://www.linkedin.com/in/michael-angelo-orinion-8b5b5533b/" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-linkedin"></i>
+            <span>Linkedin</span>
+        </a>
+
+        <a href="mailto:morinion00@gmail.com"></i>
+            <i class="fa-solid fa-envelope"></i>
+            <span>Email</span>
+        </a>
+       </div>
+    </nav>
+
+    <main>
+        <!-- SECTION 1 : Hero -->
+         <section class="hero-section">
+            <div class="text">
+                <h2>Hi, I'm Michael 👋</h2>
+                <p>I am Michael Angelo Orinion, a dedicated Computer Science student at the University of the Cordilleras, driven by a passion for technology and a vision of shaping the future as a developer. My academic journey has equipped me with foundational knowledge in programming, algorithms, and software development, and I continuously seek opportunities to enhance my skills in innovative and emerging technologies.
+                <div class="links">
+                    <a href="#skills">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+
+                    <a href="#education">
+                        <i class="fa-solid fa-pen"></i>
+                        <span>Education</span>
+                    </a>
+                    
+                    <a href="#contact">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </div>        
+            </div>
+
+            <div class="headshot">
+                <img src="photos/final1.png" alt="mico headshot">
+
+            </div>
+         </section>
+
+         <!-- SECTION 2 : Skills -->
+         <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="text">
+                I have a foundational understanding of web development, with basic knowledge of HTML, CSS, and JavaScript. These skills allow me to create simple web pages, design basic layouts, and implement interactive elements. While I am still in the early stages of mastering these technologies, I am continuously exploring opportunities to deepen my understanding and enhance my proficiency. I am eager to learn more about modern frameworks and tools to expand my capabilities and develop more dynamic and user-friendly applications in the future.
+            </div>
+
+            <div class="cells">
+                
+                <div class="cell">
+                    <img src="photos/css-3.png" alt="css logo">
+                    <span>HTML</span>
+                </div>
+
+                <div class="cell">
+                    <img src="photos/html.png" alt="html logo">
+                    <span>CSS</span>
+                </div>
+
+                <div class="cell">
+                    <img src="photos/js.png" alt="javascript logo">
+                    <span>Javascript</span>
+                </div>
+            </div>
+         </section>
+
+         <!-- SECTION 3 :Education -->
+         <section id="education" class="education-section">
+            <h2>Education</h2>
+
+            <div class="group">
+                <div class="person-details">
+                    <img src="photos/UC1.jpg">
+                    <p>University of the Cordilleras</p>
+                    <p>BSCS - 2024</p>
+                </div>
+
+                <div class="text">
+                    I'am currently studying at University of the Cordilleras and i choose this university because it stands out as a premier institution equipped with the best facilities and resources for pursuing a Bachelor of Science in Computer Science. The university is known for its commitment to providing state-of-the-art equipment, advanced laboratories, and a learning environment that fosters innovation and technical excellence. I believe that studying here will not only enhance my skills but also prepare me to excel in the competitive field of computer science. The University of the Cordilleras offers the tools, guidance, and support I need to achieve my goal of becoming a successful developer.
+                </div>
+            </div>
+         </section>
+
+         <!-- SECTION 4 : Contact -->
+         <section id="contact" class="contact-section">
+            <h2>Contact</h2>
+
+            <div class="group">
+                <div class="text">
+                    For any inquiries or opportunities, you can easily reach out to me through email or message. Feel free to send an email, and I will respond as soon as possible. Alternatively, you can contact me via direct message on my social media or messaging platforms for a quicker response. I am always open to discussions, collaborations, or any questions you may have. I look forward to connecting with you!
+                </div>
+
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+
+                    <label for="message">Message</label>
+                    <textarea id="message" cols="30" rows="10"></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+         </section>
+    </main>
+</body>
+</html>
